@@ -8,7 +8,7 @@ fn gcd(a: i32, b: i32) -> i32 {
     }
 }
 
-fn egcd(a: i32, b:i32) -> (i32, i32) {
+fn egcd(a: i32, b: i32) -> (i32, i32) {
     let mut x1 = 1; let mut y1 = 0;
     let mut x2 = 0; let mut y2 = 1;
     let mut p = x1 * a + y1 * b;
